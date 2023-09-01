@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.accueilPage {
+    background-color: #866140;
+    width: 100vw;
+    height: 70vh;
+}
+
+.hautDePageAccueil {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hautDePageAccueil p {
+ color: black;
+ margin-top: 2vh;
+ font-size: 1.5vw;
+}
+
+.hautDePageAccueil h1 {
+ color: white;
+ font-size: 3vw;
+ margin: 1vh;
+}
+
+.basDePageAccueil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       
+    margin-top: 10vh;
+    /* justify-content: space-between; */
+}
+
+
+
+.imageAccueil,
+.texteDroiteAccueilPage {
+    text-align: center;
+        
+}
+
+.texteDroiteAccueilPage {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-left: 10vw;
+}
+
+.basDePageAccueil img {
+    width: 30vw;
+    height: auto;
+    border-radius: 5px; 
+    margin-right: 10vw;  
+
+}
+
+ .texte1Accueil {
+    color: white;
+    font-size: 2vw;
+    margin-bottom: 3vh;
+ }
+
+ .texte2Accueil {
+    font-size: 1.4vw;
+    color: black;
+ }
+
+/* OVERLAY ACCUEIL */
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(253, 240, 235);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 0;
+}
+
+#overlay.show {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#overlay-content {
+    text-align: center;
+}
+
+#overlay-logo {
+    width: 25vw; /* Ajustez la taille du logo selon vos besoins */
+    height: auto; /* Ajustez la taille du logo selon vos besoins */
+    cursor: pointer;
+}
+
+#overlay-title {
+    color: #865A2D;
+    font-size: 4vw;
+    cursor: pointer;
+}
+
+
+.programmePage {
+    height: 60vh;
+    background: rgb(253, 240, 235);
+}
+
+.programmePage h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    
+}
+
+.programmeBasPage {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.blocProgramme {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.texteProgramme {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.titreProgramme {
+    margin:  2vh 0;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5vw;
+    
+}
+
+.anneeProgramme {
+    margin: 2vw;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+
+.paragrapheProgramme {
+    text-align: left;
+    width: 60%;
+}
